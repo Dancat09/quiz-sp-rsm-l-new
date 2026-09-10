@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background-color: rgb(17, 122, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.container {
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+ 
+#answers button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+ 
+#start, #next {
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+ 
+#next {
+    display: none;
+}
+ 
+.correct {
+    background-color: lightgreen;
+}
+ 
+.wrong {
+    background-color: lightcoral;
+} 
