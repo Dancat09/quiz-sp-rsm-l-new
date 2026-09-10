@@ -30,7 +30,11 @@ body {
 #next {
     display: none;
 }
- 
+
+button {
+    background-color: rgb(141, 192, 192);
+}
+
 .correct {
     background-color: lightgreen;
 }
