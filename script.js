@@ -1,5 +1,5 @@
 let questionNumber = 0;
- 
+
 let questions = [
     {
         question: "Hva er hovedoppgaven til en IT-driftstekniker?",
@@ -32,6 +32,7 @@ function startQuiz() {
     questionNumber = 0;
  
     document.getElementById("start").style.display = "none";
+    document.getElementById("answers").style.display = "block";
  
     showQuestion();
 }

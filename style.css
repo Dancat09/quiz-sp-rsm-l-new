@@ -35,6 +35,10 @@ button {
     background-color: rgb(141, 192, 192);
 }
 
+#answers {
+    display: none;
+}
+
 .correct {
     background-color: lightgreen;
 }
